@@ -1,9 +1,26 @@
 <!doctype html>
 <html>
 <head>
-  <link rel="stylesheet" href="supernice.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47453677-2"></script>
+  <script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-47453677-2');
+  </script>
+
+
+  <link rel="stylesheet" href="static/css/supernice.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Hi!</title>
 
   <!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:900i" rel="stylesheet">
@@ -12,7 +29,7 @@
 
 </head>
 <body style="background-color: #E0FBFC; color: #253237">
-	<div class = "container" style = "margin-left: 1em">
+	<div class = "container">
 
 	  <h1>Hi! I'm Philip Claesson.</h1>
 		<div class="row">
@@ -25,35 +42,50 @@
 
 		</div>
 
-		<div class = "row" >
-			<h2>Here are some projects to have a look at. </h2>
+		<divstyle = "margin-left: 0.1em">
+			<h2>Here are some projects to have a look at: </h2>
 			<br>
-			<h3>Entrepreneurial</h3>
-			<div class="col-sm-6" style="background-color:#EEC643;">
-			<h4>Klimato - a cleantech IT startup</h4>
-			</div>
-			<div class="col-sm-6" style="background-color:#011936;">
-			<h4>Programming Workshops Rinkeby - an integration project</h4>
-			</div>
-		</div>
-		<div class = "row">
+			<h3>Entrepreneurial Projects</h3>
+
+			<a href = "https://klimato.se" target="_blank" id = "int_link"><h2>Klimato</h2></a>
+
+			<a href = "http://programmeringrinkeby.webnode.se/" target="_blank" id = "int_link"><h2>Programming Workshops Rinkeby</h2></a>
+
 			<br>
 			<h3>Data Science Projects</h3>
-			<div class="col-sm-6" style="background-color:yellow;">
-			<h4>A Recommender System - a song to playlists recommender system</h4>
-			</div>
-			<div class="col-sm-6" style="background-color:blue;">
-			<h4>The Titanic Challenge - a Binary Classification at Kaggle</h4>
-			</div>
-		</div>
-		<div class = "row">
+			<a href = "https://github.com/philipclaesson/songrecommender" target="_blank" id = "int_link"><h2>Song to Playlist Recommender System</h2></a>
+
+			<a href = "https://github.com/philipclaesson/Titanic" target="_blank" id = "int_link"><h2>The Titanic Challenge</h2></a>
+
 			<br>
-			<h3>Other Projects</h3>
-			<div class="col-sm-6" style="background-color:yellow;">
-			</div>
-			<div class="col-sm-6" style="background-color:blue;">
-			</div>
+			<h3>Other Programming Projects</h3>
+			<a href = "https://github.com/philipclaesson/Railway" target="_blank" id = "int_link"><h2>Railway Spotify Challenge</h2></a>
+
+
+			<a href = "https://github.com/philipclaesson/BirthdayQueue" target="_blank" id = "int_link"><h2>Spotify Birthday Party Queue</h2></a>
+
+			
+
+			<a href = "https://gits-15.sys.kth.se/tildav15/philipcl-labbar" target="_blank" id = "int_link"><h2>Applied Computer Science Labs</h2></a>
+
+			<br>
+			<h3>Other Random Projects</h3>
+
+			<a href = "https://www.acast.com/freeridepodden" target="_blank" id = "int_link"><h2>Freeride Podcast</h2></a>
+
+
+
+			<br>
+			<h3>Social</h3>
+			<a href = "https://github.com/philipclaesson" target="_blank" data-hover = "GitHub"><h4>GitHub</h4></a>
+			<a href = "https://www.linkedin.com/in/philipclaesson/" target="_blank" ><h4>Linkedin</h4></a>
+			<a href = "mailto:philipcl@kth.se" target="_blank" id = "sm_link"><h4>philipcl@kth.se</h4></a>
+
+
 		</div>
+		<br>
+
+	
 	</div>
 			
 
@@ -61,4 +93,14 @@
 
 
 </body>
+<style>
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+a:hover{
+  color: #C2EABD;
+}
+
+
+</style>
 </html>
